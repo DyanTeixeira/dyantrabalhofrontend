@@ -1,0 +1,138 @@
+body{
+
+    background-color: #f0f4f9;
+}
+.caixa-de-login{
+  
+    position: relative;
+    width: 960px;
+    height: 405px;
+    padding:  auto; 
+    margin: 100px auto ;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+}
+
+#senha{
+    position: absolute;
+    padding-right:  160px ;
+    font-size: 16px;
+   padding: 18px 210px 17px 11px;
+   bottom: 180px;   
+   left: 500px; 
+   border-radius: 4px;
+    background-color: white;
+    border: 1px solid #747775;
+}
+.MostraSenha{
+    position: absolute;
+    bottom: 150px;   
+    left: 540px; 
+    color: #444746;
+}
+
+#checkbox{
+    width: 20px; 
+    height: 18px; 
+    position: relative; 
+    cursor: pointer;
+  right: 130px;
+  bottom: -3px;
+  
+}
+
+#text-checkbox{
+    font-size: 13px;
+    font-weight: 550;
+    color: #444746;
+}
+
+.link-a a{
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    bottom: 23px;
+    left: 640px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 550;
+    cursor: pointer;
+    color: #1e63d3; 
+}
+.link-a a:hover {
+    background-color: #e6eefa;
+    border-radius: 50px;
+    border: 2px solid #e6eefa;
+}
+#btn-avançar{
+    position: absolute;
+    padding: 13px 26px 13px 26px;
+    font-size: 13px;
+    font-weight: 550;
+    bottom: 20px;
+    left: 820px;
+    cursor: pointer;
+    background-color: #0b57d0;
+    border-radius: 25px;
+    border: none;
+}
+#btn-avançar:hover{
+    background-color: #0a44a1;
+    border: 2px solid #e6eefa;
+}
+.link-c a{
+    display: inline-block;
+    position: relative;
+    left: 905px;
+    padding: 15px;
+    top:-90px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #505357;
+}
+.link-c a:hover{
+    background-color: #acaeb2;
+    border-radius: 50px;
+}
+
+#imagem{
+    display: flex;
+    position: absolute;
+    bottom:  220px;
+    left: -20px;
+}
+
+.emailver{
+    
+    max-width: 240px;
+    position: absolute;
+   
+    margin-top: 170px;
+    margin-left: 55px;
+    
+    font-size: 16px;
+    border: solid 1px #747775;
+    border-radius: 20px;
+    padding:  6px 45px ;
+    color: #747775;
+ }
+
+#titulo{
+    position: absolute;
+    font-size: 40px;
+    bottom: 250px;
+    left: 40px;
+    color: #1f1f1f;
+}
+
+.icone{
+position: absolute;
+display: flex;
+z-index: 100;
+width: 200px;
+font-size: 25px;
+top: 175px;
+left: 70px;
+}

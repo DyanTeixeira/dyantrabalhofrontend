@@ -1,0 +1,156 @@
+body{
+
+    background-color: #f0f4f9;
+}
+.caixa-de-login {
+  
+    position: relative;
+    width: 960px;
+    height: 405px;
+    padding:  auto; 
+    margin: 100px auto ;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+}
+
+.titulo-1 {
+    position: absolute;
+    font-size: 37px;
+    bottom: 250px;
+    left: 30px;
+    color: #1f1f1f;
+   
+}
+
+.sub-titulo-2 {
+    position: absolute;
+
+    font-size: 16px;
+    color: #5e5959;
+    font-weight: 400; /* Corrigido o valor de font-weight */
+    bottom: 210px;
+    left: 33px;
+
+}
+#email   {
+   
+    position: absolute;
+    padding-right:  160px ;
+    font-size: 16px;
+    padding: 18px 210px 17px 11px;
+   bottom: 235px;   
+   left: 500px; 
+   border-radius: 4px;
+    background-color: white;
+    border: 1px solid #747775;
+}
+
+
+.link-a a{
+   
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    color: #5e5959;
+    font-weight: 550;
+    left: 505px;
+    bottom: 210px;
+    
+    
+  color: #4f77db;
+}
+.link-a a:hover{
+    background-color: #e6eefa;
+    border-radius: 5px;
+    border: 2px solid #e6eefa;
+}
+.descrição {
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+    bottom: 150px;
+    left: 503px;
+    color: #5e6068;
+}
+.descrição-2{
+    position: absolute;
+   display: inline-block;
+    font-size: 14px;
+    bottom: 130px;
+    left: 503px;
+    color: #5e6068;
+    }
+
+.link-b a {
+    text-decoration: none;
+    position: absolute;
+    font-weight: 550;
+    bottom: 110px;
+    left: 505px;
+    font-size: 14px;
+    color: #4f77db;
+}
+.link-b a:hover {
+    background-color: #e6eefa;
+    border-radius: 5px;
+    border: 2px solid #e6eefa;
+}
+#btn-cria button {
+    position: absolute;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    bottom: 20px;
+    left: 690px;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+    color: #1e63d3; 
+}
+
+#btn-cria button:hover{
+    background-color: #e6eefa;
+    border-radius:60px;
+    border: 2px solid #e6eefa;
+}
+
+#btn-avançar button{
+
+    position: absolute;
+    padding: 13px 26px 13px 26px;
+    font-size: 13px;
+    font-weight: 550;
+    bottom: 20px;
+    left: 820px;
+    cursor: pointer;
+    background-color: #0b57d0;
+    border-radius: 25px;
+    border: none;
+}
+
+#btn-avançar button:hover{
+    background-color: #0a44a1;
+    border: 2px solid #e6eefa;
+}
+    
+.link-c a{
+    display: inline-block;
+    position: relative;
+    left: 905px;
+    padding: 15px;
+    top:-90px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #505357;
+}
+.link-c a:hover{
+    background-color: #acaeb2;
+    border-radius: 50px;
+}
+#imagem{
+    display: flex;
+    position: absolute;
+    bottom:  220px;
+    left: -20px;
+}

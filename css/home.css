@@ -1,0 +1,520 @@
+
+
+
+header{
+    display: flex;
+    position: absolute;
+ background: #007bff;
+ z-index: 15;
+
+}
+
+
+
+.barra {
+    background-color: #9fcdff;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 85px;
+    border-radius: 3px;
+    z-index: 2;
+    border-bottom: 4px solid    rgba(0, 123, 255, 0.5);
+  }
+
+#imagem{
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    top: -153px;
+    left: -55px;
+
+
+}
+
+body{
+
+    background-color: #f0f4f9;
+}
+
+.caixa-de-login {
+  
+    position: relative;
+    width: 80%;
+    height: 595px;
+    padding-left:  100px ;
+    padding-top: 30px; 
+    margin: 40px auto ;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    overflow: auto;
+    scrollbar-width: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    color: #007bff;
+}
+
+
+
+.icone{
+    position :sticky;
+    position: absolute;
+    display: flex;
+    top: -0px;
+    right: 5px;
+    z-index: 992;
+}
+.iconebutton{
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    left: -130px;
+    height:  60px;
+    width: 90px;
+    right: 90px;
+    position:absolute;
+    top: 12px;
+    z-index: 122;
+    font-size: 30px;
+   background-color: #007bff;
+   border-radius:65px;
+   border: none;
+   cursor: pointer;
+}
+
+
+.iconebutton:hover {
+    cursor: pointer;
+    background-color: rgb(5, 21, 44)
+
+}
+
+
+#openModalBtn{
+    position: sticky;
+    top: 190px;
+    margin-left: -53px;
+    width: 270px;
+    border-radius: 10px;
+    background-color: transparent ;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    height: 40px;
+    font-size: 2vw;
+    color: #007bff;
+    z-index: 14;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+}
+
+#openModalBtn:hover {
+    cursor: pointer;
+    background-color: rgb(5, 21, 44);
+    transition: background-color 0.3s ease-in-out;
+  
+}
+
+/* Estilo para a tabela */
+/* Estilo para a tabela */
+table {
+    right: 55px;
+    bottom: -215px;
+    position: relative;
+    display: block;
+    max-width: 1000px;
+    overflow: auto;
+    border-collapse: collapse;
+    border-radius: 15px; /* Bordas mais arredondadas */
+    z-index: 10;
+    box-shadow: 0 0px 9px 4px rgba(0, 125, 255, 0.5);
+    transition: box-shadow 0.3s ease-in-out; /* Transição suave para sombra */
+}
+
+/* Estilo para as células da tabela */
+td, th {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 15px;
+    min-width: auto;/* Altura reduzida */
+    border: 4px solid rgba(0, 125, 255, 0.4);
+    text-align: center;
+    padding-left: 5px; /* Padding maior para melhor legibilidade */
+    transition: background-color 0.3s ease-in-out; /* Transição suave para o fundo */
+}
+
+td:hover, th:hover {
+  background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+  transform: translateY(-5px); /* Desloca a célula para cima */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+  transition: transform 1.2s ease; /* Transição suave e lenta para o movimento */
+}
+/* Estilos específicos para cada coluna */
+.idproduto, .nome, .valor, .quantE, .obs, .dtCtr {
+    font-weight: bold;
+    height: 40px;
+    padding-left: 10px;
+    max-width: 320px;
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+
+}
+.nome{
+width: 250px;
+}
+
+.valor{
+  display: flex;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.quantE{
+  display: flex;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+
+.idproduto {
+    font-size: 26px;
+    color: black;
+}
+
+/* Estilo para os identificadores */
+#idrodutoo, #nomee, #valorr, #quatEE, #obss, #dtCtrr {
+    padding-left: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #007bff;
+    
+}
+
+.obs {
+  position: relative;
+    top:  -30px;
+}
+
+.dtCtr{
+  position: relative;
+  top: -5px;
+}
+
+#obss {
+    font-size: 17px;
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-all;
+    overflow-x: auto;
+    max-width: 390px;
+    max-height: 20px;
+    width: 1280px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    position: relative;
+    bottom: -30px;
+    right: 105px;
+    border: solid 1px black;
+    border-radius: 3px;
+    scrollbar-width: none;
+    
+}
+
+.editar, .excluir {
+    background-color: #1987e0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+/* Estilo para os botões de editar e excluir */
+.excluir {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin: 260px;
+    margin-bottom: 645px;
+ /* Transição suave para transformações */
+}
+
+.editar{
+
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 225px;
+   margin-top: -0px;
+    margin-bottom: 385px;
+}
+
+
+/* Estilo para o hover dos botões */
+.editar:hover {
+    background-color: #14273b;
+    transform: scale(1.05); /* Efeito de crescimento ao passar o mouse */
+}
+.excluir:hover{
+    background-color: #ff0707;
+    transform: scale(1.05);}
+
+
+h1 {
+    z-index: 9;
+    position: absolute;
+    height: 60px;
+    border-bottom: #007bff dashed 1px;
+    font-size: 50px;
+    bottom: 420px;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    color: #007bff;
+    font-weight: bolder;
+    
+  }
+
+----------------------------------------------------
+/* Estilo do modal adiconar produto */
+.modalAdicionar {
+    position: absolute;
+    display: none; /* Escondido por padrão */
+    z-index: 100; /* Fica no topo */
+    left: 0;
+    top: 0; /* Largura total */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo com opacidade */
+  }
+  
+  /* Estilo do conteúdo do modal */
+  .modal-contentAdicionar {
+    display: none;
+    position: absolute;
+    z-index: 101;
+    left:30%;
+    top: -12%;
+    background-color: #fefefe;
+    margin: 10% auto; /* 10% do topo e centralizado horizontalmente */
+    padding: 20px;
+    border: 1px solid #007bff;
+    width: 40%; /* Largura do conteúdo */
+    box-shadow: 0 0px 9px 600px rgba(0, 0, 0, 0.8);
+    animation: animatetop 0.4s;
+  }
+
+h2{    
+    
+    font-size: 30px;
+    padding: 10px;
+   /* margin: 20px 0px 15px 40px; */
+    font-weight: bolder;
+    text-decoration:  underline;
+  }
+  #Nome,  #Valor, #QuantidadeEstoque, #DataCadastro{
+    width: 380px;
+    height: 30px;
+    border: #363333 solid 2px;
+    border-radius: 5px;
+  
+  }
+
+  textarea {
+    position: relative;
+       resize: none;
+       height: 60px;
+       width: 400px;
+ 
+}
+  .Nmo , .vlr, .Quantidade, .observaçao, .DtaCadstro{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+  /* Estilo do botão de fechar */
+  .uniqueClose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .uniqueClose:hover, .uniqueClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo dos inputs e labels */
+  .inputOrganizar {
+    margin-bottom: 10px;
+  }
+  
+  .inputOrganizar label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo do botão de adicionar */
+  input[type=submit] {
+    background-color: #007bff; /* Cor azul */
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0056b3; /* Cor azul mais escura */
+  }
+  
+/* Estilo do modal de edição */
+
+
+  /* Estilo do conteúdo do modal */
+  .modal-contentEdit {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left:30%;
+    top: -12%;
+    background-color: #fefefe;
+    margin: 10% auto; /* 10% do topo e centralizado horizontalmente */
+    padding: 20px;
+    border: 1px solid #007bff;
+    width: 40%; /* Largura do conteúdo */
+    box-shadow: 0 0px 9px 600px rgba(0, 0, 0, 0.8);
+    animation: animatetop 0.4s;
+  }
+  
+  /* Estilo do botão de fechar */
+  .modalEditarClose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .modalEditarClose:hover,
+  .modalEditarClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo dos inputs e labels */
+  #formEditarProduto label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #formEditarProduto input,
+  #formEditarProduto textarea {
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que o padding não afete a largura */
+  }
+  
+  /* Estilo do botão de salvar */
+  #formEditarProduto button {
+    background-color: #007bff; /* Cor azul */
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #formEditarProduto button:hover {
+    background-color: #0056b3; /* Cor azul mais escura */
+  }
+  
+  /* Animação do modal aparecendo */
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+  
+
+/*modal logout*/
+
+.modal-contentLogout {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background-color: #fefefe;
+    top: 80px;
+    right: 60px;
+    padding-top: 110px;
+    padding-bottom: 130px;
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    box-shadow: 0 0px 9px 900px rgba(0, 0, 0, 0.8);
+    animation: animatetop 0.4s;
+    width: 35%; /* Largura do conteúdo */
+  }
+  
+  /* Animação do modal aparecendo */
+  @keyframes animatetop {
+    from {opacity: 0}
+    to { opacity: 1}
+  }
+  .titulo-logout{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 85px;
+    font-size: 50px;
+  }
+  .texto-logout{
+    font-weight: bolder;
+    display: flex;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    font-size: 23px;
+    color: #333;
+  }
+
+  .close, .closes {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: #aaa;    
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close:focus, .closes:hover, .closes:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o botão de confirmação */
+  #confirmLogout {
+    position: absolute;
+    background-color: #007bff; /* Cor azul */
+    color: white;
+    top: 160px;
+    font-weight: bolder;
+    left: 60px;
+    border-radius: 10px;
+    padding: 20px ;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+  }
+  
+  #confirmLogout:hover {
+    background-color: #0056b3; /* Cor azul mais escura */
+  }
+
